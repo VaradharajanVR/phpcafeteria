@@ -11,7 +11,7 @@ if (!empty($name)) {
                 $host = "ec2-52-44-235-121.compute-1.amazonaws.com";
                 $dbusername = "bixojyvagkwzsj";
                 $dbpassword = "5432";
-                $dbname = "cart";
+                $dbname = "ddnpngbp2os80h";
                 // Create connection
                 $conn = new pg_connect($host, $dbusername, $dbpassword, $dbname);
                 if (pg_connect_connect_error()) {
